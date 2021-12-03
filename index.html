@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="box">
+        <div>
+            <h1>Kampf der Titanen</h1>
+        </div>
+        <div class="rounds">
+            <form action="" onsubmit="return false;">
+                <h2>Rounds of fight</h2>
+                <input type="radio" name="name" value="5" id="five">
+                <label for="">5</label>
+                <input type="radio" name="name" value="10"id="ten">
+                <label for="">10</label>
+                <input type="radio" name="name" value="15"id="fifthTeen">
+                <label for="">15</label>
+                <input type="radio" name="name" value="20"id="twenty">
+                <label for="">20</label>
+            </form>
+        </div>
+        <div class="challengers">
+            <h2 id="bioGodzilla">
+                Godzilla
+            </h2>
+            <h2 class="vs">
+                vs
+            </h2>
+            <h2 id="cyborgGodzilla">
+                CyberGodzilla
+            </h2>
+        </div>
+        <div class="score">
+            <p id="originalPlayer">0</p>
+            <p>:</p>
+            <p id="kiPlayer">0</p>
+        </div>
+        <div id="buttons">
+            <button onclick="myFunction(1)"><img src="assets/img/blatt.png" alt=""></button>
+            <button onclick="myFunction(2)"><img src="assets/img/schere.png" alt=""></button>
+            <button onclick="myFunction(3)"><img src="assets/img/stein.png" alt=""></button>
+        </div>
+        <div></div>
+        <div>
+            <a class="refresh" href="index.html"><img src="assets/img/refresh.png" alt=""></a>
+        </div>
+        <div id="result"></div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+max-width: 1440px;
+background: url("https://cdn.pixabay.com/photo/2021/10/20/11/25/godzilla-6725766_1280.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-color: black;
+color: white;
+}
+
+.box{
+  border: 3px solid aqua;
+  box-shadow: 0 0 120px #fff;
+  width: 40%;
+  text-align: center;
+  background-color: rgb(10, 10, 10, 0.9);
+  h1 {
+  font-size: 2rem;
+  padding: 5% 0;
+  }
+  .rounds {
+  padding: 5% 0; 
+  h2{
+      padding-bottom: 5%;
+  }  
+  label {   
+      padding-right: 5%;
+      font-size: 1.3rem;
+  }
+  }
+  .challengers {
+      display: flex;
+      justify-content: space-around;
+      #bioGodzilla {
+          color: red;
+      }
+      #cyborgGodzilla {
+          color: yellow;
+      }  
+      .vs{
+          padding-left: 10%;
+      }   
+  }
+  .score{
+  display: flex;
+  justify-content: space-around;   
+  padding-top: 3%;
+  font-size: 1.3rem;
+  padding-bottom: 5%; 
+  }
+  #buttons {
+  display: flex;
+  justify-content: space-around;
+  button{
+      background-color: black;
+     
+  }     
+  }
+  .refresh{
+    display: block;
+     background-color: black;
+     width: 25%;
+     margin: 7% auto;
+     box-shadow: 0 0 120px #fff;
+     border-radius: 15px;
+  }
+  #result{
+      border: 1px solid orangered;
+      margin-left: 22%;
+      margin-bottom: 5%;
+      width: 60%;
+      height: 5%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

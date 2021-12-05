@@ -47,6 +47,7 @@ function myFunction(monster) {
             kiDevelopment();
         } if (versuche == five.value) {
             result.innerHTML = " Das Spiel ist vorbei"; 
+            result.style.color = "green";
         }
     }
 
@@ -76,7 +77,9 @@ function myFunction(monster) {
             kiDevelopment();
         } if (versuche == ten.value) {
             result.innerHTML = " Das Spiel ist vorbei";
+            result.style.color = "green";
         }
+
 
     }
     if (fifthTeen.checked) {
@@ -102,8 +105,10 @@ function myFunction(monster) {
             kiDevelopment();
         } if (versuche == fifthTeen.value) {
             result.innerHTML = " Das Spiel ist vorbei";
+            result.style.color = "green";
         }
 
+        
     }
     if (twenty.checked) {
         let cyberZilla = Math.floor(Math.random() * 3) + 1;
@@ -128,6 +133,7 @@ function myFunction(monster) {
             kiDevelopment();
         } if (versuche == twenty.value) {
             result.innerHTML = " Das Spiel ist vorbei";
+            result.style.color = "green";
         }
     }
 }

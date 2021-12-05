@@ -7,6 +7,7 @@ let paper = 2;
 let scissors = 3;
 let ungeheuer = 0;
 let maschine = 0;
+let versuche = 0
 
 
 
@@ -25,6 +26,7 @@ const kiDevelopment = () => {
 function myFunction(monster) {
     if (five.checked) {
         let cyberZilla = Math.floor(Math.random() * 3) + 1;
+        versuche += 1
         if (monster == cyberZilla) {
             result.innerHTML = "Face to Face";
         } else if (
@@ -43,10 +45,17 @@ function myFunction(monster) {
             result.innerHTML = " bruder du bist der King";
             ungeheuer++;
             kiDevelopment();
+        } if (versuche == five.value) {
+            result.innerHTML = " Das Spiel ist vorbei"; 
         }
     }
+
+
+
+
     if (ten.checked) {
         let cyberZilla = Math.floor(Math.random() * 3) + 1;
+        versuche += 1
         if (monster == cyberZilla) {
             result.innerHTML = "Face to Face";
         } else if (
@@ -65,10 +74,14 @@ function myFunction(monster) {
             result.innerHTML = " bruder du bist der King";
             ungeheuer++;
             kiDevelopment();
+        } if (versuche == ten.value) {
+            result.innerHTML = " Das Spiel ist vorbei";
         }
+
     }
     if (fifthTeen.checked) {
         let cyberZilla = Math.floor(Math.random() * 3) + 1;
+        versuche += 1
         if (monster == cyberZilla) {
             result.innerHTML = "Face to Face";
         } else if (
@@ -87,10 +100,14 @@ function myFunction(monster) {
             result.innerHTML = " bruder du bist der King";
             ungeheuer++;
             kiDevelopment();
+        } if (versuche == fifthTeen.value) {
+            result.innerHTML = " Das Spiel ist vorbei";
         }
+
     }
     if (twenty.checked) {
         let cyberZilla = Math.floor(Math.random() * 3) + 1;
+        versuche += 1
         if (monster == cyberZilla) {
             result.innerHTML = "Face to Face";
         } else if (
@@ -109,6 +126,8 @@ function myFunction(monster) {
             result.innerHTML = " bruder du bist der King";
             ungeheuer++;
             kiDevelopment();
+        } if (versuche == twenty.value) {
+            result.innerHTML = " Das Spiel ist vorbei";
         }
     }
 }

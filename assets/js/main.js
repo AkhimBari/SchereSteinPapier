@@ -1,7 +1,7 @@
 const originalPlayer = document.getElementById("originalPlayer");
 const kiPlayer = document.getElementById("kiPlayer");
 const result = document.getElementById("result");
-let rounds = document.getElementsByClassName("rounds");
+let buttons = document.getElementById("buttons")
 let rock = 1
 let paper = 2;
 let scissors = 3;
@@ -48,6 +48,7 @@ function myFunction(monster) {
         } if (versuche == five.value) {
             result.innerHTML = " Das Spiel ist vorbei"; 
             result.style.color = "green";
+            buttons.style.display = "none";
         }
     }
 
@@ -78,6 +79,7 @@ function myFunction(monster) {
         } if (versuche == ten.value) {
             result.innerHTML = " Das Spiel ist vorbei";
             result.style.color = "green";
+            buttons.style.display = "none";
         }
 
 
@@ -106,6 +108,7 @@ function myFunction(monster) {
         } if (versuche == fifthTeen.value) {
             result.innerHTML = " Das Spiel ist vorbei";
             result.style.color = "green";
+            buttons.style.display = "none";
         }
 
         
@@ -134,6 +137,7 @@ function myFunction(monster) {
         } if (versuche == twenty.value) {
             result.innerHTML = " Das Spiel ist vorbei";
             result.style.color = "green";
+            buttons.style.display = "none";
         }
     }
 }

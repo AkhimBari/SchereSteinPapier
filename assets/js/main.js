@@ -34,7 +34,7 @@ function myFunction(monster) {
             (monster == paper && cyberZilla == scissors) ||
             (monster == scissors && cyberZilla == rock)
         ) {
-            result.innerHTML = " du lappen";
+            result.innerHTML = " cyberZilla wins!";
             maschine++;
             kiDevelopment();
         } else if (
@@ -42,11 +42,11 @@ function myFunction(monster) {
             (monster == paper && cyberZilla == rock) ||
             (monster == scissors && cyberZilla == paper)
         ) {
-            result.innerHTML = " bruder du bist der King";
+            result.innerHTML = " Godzilla wins!";
             ungeheuer++;
             kiDevelopment();
         } if (versuche == five.value) {
-            result.innerHTML = " Das Spiel ist vorbei"; 
+            result.innerHTML = " Das Spiel ist vorbei";
             result.style.color = "green";
             buttons.style.display = "none";
         }
@@ -111,7 +111,7 @@ function myFunction(monster) {
             buttons.style.display = "none";
         }
 
-        
+
     }
     if (twenty.checked) {
         let cyberZilla = Math.floor(Math.random() * 3) + 1;
